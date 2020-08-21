@@ -8,5 +8,5 @@ class Track:
 			self.duration = duration
 			self.popularity = popularity
 	
-	def asTuple(self):
+	def as_tuple(self):
 		return (self.id, self.name, self.release_date, self.uri, self.duration, self.popularity)

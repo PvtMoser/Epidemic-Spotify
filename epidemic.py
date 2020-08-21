@@ -62,7 +62,8 @@ def main():
 				### Write tracks to DB
 				logging.info("Writing songs to DB...")
 				for track in tracks["tracks"]:
-					track_to_write= Track(track["id"],track["name"],track["album"]["release_date"],track["uri"],track["duration_ms"],track["popularity"])					
+					track_to_write= Track(track["id"],track["name"],track["album"]["release_date"],
+											track["uri"],track["duration_ms"],track["popularity"])					
 					db_context.insert_into_tracks(track_to_write)
 						
 				### Read tracks from DB

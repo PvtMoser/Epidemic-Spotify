@@ -83,7 +83,7 @@ class DBContext:
 			sql = ''' INSERT OR REPLACE INTO tracks(id,name,release_date,uri,duration,popularity)
 					  VALUES(?,?,?,?,?,?) '''
 			
-			self.commit(sql, track.asTuple())		
+			self.commit(sql, track.as_tuple())		
 
 			
 	def read_tracks(self):
