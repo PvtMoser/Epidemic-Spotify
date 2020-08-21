@@ -1,3 +1,5 @@
+#! /usr/bin/python3
+
 from urllib import request, parse, error
 import json
 from keys import *
