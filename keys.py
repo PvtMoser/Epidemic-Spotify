@@ -68,5 +68,5 @@ THIS IS NOT THE FILE YOU ARE LOOKING FOR.
 
 
 
-client_id = 'be7f18799fb8416ea4bc850b6d1d771a'
-client_secret = '408934ea83ac4570ab11bb0e8ed2194f'
+client_id = ''
+client_secret = ''

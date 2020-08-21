@@ -16,7 +16,7 @@ On windows, use
 python epidemic.py
 ```
 
-Make sure to have write privileges in the respective directory so the DB and log files can be created.
+Make sure to have write privileges in the respective directory so the DB and log files can be created. Also make sure to adjust keys.py to use a valid clientID and clientSecret.
 
 ## Logging
 The file "log.log" will contain detailed logs on what has happened during program execution. A final console print is used to give immediate feedback when executed as a docker. 
