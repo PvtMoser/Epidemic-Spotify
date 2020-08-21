@@ -65,9 +65,14 @@ def main():
 						
 				### Read tracks from DB
 				logging.debug("Fetching songs from DB...")
+				print("Fetching stored songs from DB...")
 				for row in db_context.read_tracks():					
 					logging.debug("Record found: ")
 					logging.debug(row)
+					print(row)
+					
+				
+				
 	
 
 
